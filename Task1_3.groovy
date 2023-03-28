@@ -22,3 +22,6 @@ else
     def str = summaryValue.replace("URGENT: ", "")
     summaryField.setFormValue(str)
 }
+
+//Condition must be set to: When: Workflow Action: Create Issue (1)
+//Allows "Create" screen only
